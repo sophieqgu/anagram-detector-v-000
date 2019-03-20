@@ -2,7 +2,6 @@ class Anagram
   attr_accessor :word
   def initialize(word)
     @word = word 
-    @anagrams = []
   end 
   
   def match(anagrams_str)
