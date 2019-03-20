@@ -7,9 +7,6 @@ class Anagram
   def match(anagrams_str)
     anagrams_str.select do |anagram|
       anagram.split("").sort == @word.split("").sort
-        @anagrams << anagram 
-      end 
     end 
-  return @anagrams
   end
 end 
